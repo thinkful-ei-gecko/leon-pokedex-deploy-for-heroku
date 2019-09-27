@@ -34,3 +34,5 @@ app.get('/', handleGetPokemon);
 app.get('/pokemon', handleGetPokemon);
 
 app.get('/types', handleGetTypes);
+
+module.exports = app;
